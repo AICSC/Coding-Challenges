@@ -18,4 +18,4 @@ Enter a whole number between 1000 and 999999 without spaces or commas.
 ````
 
 #### Submit Your Results
-[Create a Pull Request](https://github.com/AICSC/Coding-Challenges/new/master/20150220/)
+[Create a Pull Request](https://github.com/AICSC/Coding-Challenges/new/master/2015/02-20/)
