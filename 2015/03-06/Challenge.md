@@ -19,5 +19,9 @@ Enter the temperature and scale (eg. 80.0F): 59F
 59.0°F == 15.0°C
 ```
 
+#### Submissions
+  * [Chad](https://github.com/AICSC/Coding-Challenges/blob/master/2015/03-06/Chad/Challenge2.java)
+  * [Pat](https://github.com/AICSC/Coding-Challenges/tree/master/2015/03-06/Pat)
+
 #### Submit Your Results
 [Create a Pull Request](https://github.com/AICSC/Coding-Challenges/new/master/2015/03-06/)
