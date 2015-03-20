@@ -21,6 +21,7 @@ Enter the temperature and scale (eg. 80.0F): 59F
 
 #### Submissions
   * [Chad](https://github.com/AICSC/Coding-Challenges/blob/master/2015/03-06/Chad/Challenge2.java)
+  * [Gerardo](https://github.com/AICSC/Coding-Challenges/tree/master/2015/03-06/Gerardo-Martinez)
   * [Pat](https://github.com/AICSC/Coding-Challenges/tree/master/2015/03-06/Pat)
 
 #### Submit Your Results
