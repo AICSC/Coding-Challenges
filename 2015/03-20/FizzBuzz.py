@@ -19,7 +19,7 @@
 
 #-----------------------------------------------------------------------
 # PROGRAM'S MAIN LOGIC
-for x in range(1, 100):
+for x in range(1, 101):
     if (x % 3 == 0 or x % 5 == 0):
         if (x % 3 == 0):
             print("Fizz", end= "")
