@@ -11,5 +11,8 @@ Print the numbers from 1 - 100, each on a new line, with the following exception
 This challenge was inspired by *[Using FizzBuzz to Find Developers who Grok Coding](http://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/)* by Imran Ghory.
 The link contains spoilers in the comments, so you might wait until after you've finished to check it out. :wink:
 
+#### Submissions
+  * [Kozmik](https://github.com/AICSC/Coding-Challenges/tree/master/2015/03-20/Kozmik/)
+
 #### Submit Your Results
 [Create a Pull Request](https://github.com/AICSC/Coding-Challenges/new/master/2015/03-20/)
