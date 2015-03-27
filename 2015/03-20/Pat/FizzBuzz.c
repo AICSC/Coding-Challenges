@@ -17,7 +17,7 @@ int main( void ) {
 
     for (unsigned int i=1, j=1; i<101; ++i, ++j) {
         switch (j) {
-            case  15:
+            case 15:
                 printf("%s%s\n", FIZZ, BUZZ);
                 j=1, ++i;
                 break;
