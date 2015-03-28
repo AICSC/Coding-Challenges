@@ -20,10 +20,7 @@ var outString : String
 
 func input() -> Int {
     let string = NSString( data: stdin.availableData, encoding:NSUTF8StringEncoding )
-    if let returnValue = string?.integerValue as Int? {
-        return returnValue
-    }
-    return 0
+    return string?.integerValue ?? 0
 }
 
 do {
