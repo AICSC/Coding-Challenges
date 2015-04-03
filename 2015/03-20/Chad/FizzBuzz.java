@@ -17,9 +17,7 @@ import javax.swing.JFrame; //creates an output window (frame)
 import javax.swing.JComponent;
 
 public class FizzBuzz {
-	public static void FizzBuzzMethod(){
-		
-	}
+	
 	public static void draw(Graphics g) {
 		String strOut="";
 		int x =150;
