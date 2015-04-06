@@ -2,6 +2,10 @@
 
 Given a `month` and `year`, display a calendar.
 
+[This Wikipedia page](http://en.wikipedia.org/wiki/Determination_of_the_day_of_the_week)
+has information on how to determine which day of the week the first of the month
+falls on.
+
 #### Example
 
 ```
