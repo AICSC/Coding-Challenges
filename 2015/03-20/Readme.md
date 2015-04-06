@@ -12,9 +12,9 @@ This challenge was inspired by *[Using FizzBuzz to Find Developers who Grok Codi
 The link contains spoilers in the comments, so you might wait until after you've finished to check it out. :wink:
 
 #### Submissions
+  * [Chad](https://github.com/AICSC/Coding-Challenges/blob/master/2015/03-20/Chad/FizzBuzz.java)
   * [Kozmik](https://github.com/AICSC/Coding-Challenges/tree/master/2015/03-20/Kozmik/)
   * [Pat](https://github.com/AICSC/Coding-Challenges/tree/master/2015/03-20/Pat/)
-  * [Chad](https://github.com/AICSC/Coding-Challenges/blob/master/2015/03-20/Chad/FizzBuzz.java)
 
 #### Submit Your Results
 [Create a Pull Request](https://github.com/AICSC/Coding-Challenges/new/master/2015/03-20/)
