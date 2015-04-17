@@ -7,15 +7,33 @@ WEEKDAY_TABLE = {0:"S", 1:"M", 2:"T", 3:"W", 4:"T",\
 
 def __main():
     userCont = "y"
-    while userCont == "y": 
-        month = int(input("\nWhich month is to be displayed? "))
-        year = int(input("Which year is to be displayed? "))
-        print("")
+    correctType = False
+    while userCont == "y":
+        while correctType == False:
+            try:
+                month = int(input("Which month is to be displayed? "))
+                year = int(input("Which year is to be displayed? "))
+                if year<0:
+                    print("\nERROR! Please enter a positive integer.\n")
+                else:
+                    
+                    userCal = mc.Calendar(1, month, year)
+                    print("\n" + __makeCalendar(userCal), end="")
+                    correctType = True
+            except ValueError:
+                print("\nERROR! Please enter a positive integer.\n")
+            except KeyError:
+                print("\nERROR! Enter an appropriate value for month.\n")
+        
 
-        userCal = mc.Calendar(1, month, year)
-        print(__makeCalendar(userCal), end="")
-
-        userCont = input("Continue? [y/n] ")
+        my_exception=True
+        while my_exception == True:
+            userCont = input("Continue? [y/n] ")
+            if userCont == "y" or userCont == "n":
+                my_exception = False
+                correctType =False
+            else:
+                print("\nERROR! Please input a [y/n].\n")
 
 def __makeCalendar(calendar):
     length = calendar.get("month length")
@@ -23,11 +41,12 @@ def __makeCalendar(calendar):
     counter = 1
     countingFlag = False
     calString = CALENDAR_TABLE[calendar.get("month")] + " " + str(calendar.get("year"))
-    calString = calString.center(21) + "\n"
+    calString = "\n" + calString.center(21)
+    calString += "\n"
     for day in WEEKDAY_TABLE:
             calString += "{0:>3s}".format("  "+WEEKDAY_TABLE[day])
     calString += "\n"
-    for x in range(1,7):
+    for x in range(1,8):
         for y in range(0,7):
             if countingFlag:
                 if counter<=length:

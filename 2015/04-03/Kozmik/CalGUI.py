@@ -24,6 +24,16 @@ class GUI:
         self.__main.mainloop()
 
     def __makeCal(self):
-        month=int(self.__month.get())
-        year=int(self.__year.get())
-        calendar = cd.CalDisplay(1, month, year)
+        try: #Check for appropriate values for month and year
+            month=int(self.__month.get())
+            year=int(self.__year.get())
+            if year<0: #Check for positive year entry
+                self.__error_window = tk.messagebox.showerror("Error", "Please input a positive value for Year")
+            else:
+                calendar = cd.CalDisplay(1, month, year)
+        except KeyError:
+            self.__error_window = tk.messagebox.showerror("Error", "Please input an appropriate value for Month")
+        except ValueError:
+            self.__error_window = tk.messagebox.showerror("Error", "Please input appropriate integer values\n"\
+                                                          "(1-12 for Month, greater than 0 for Year")
+                
