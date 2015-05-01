@@ -26,5 +26,8 @@ run a number of different languages from it’s web interface.
 This could help you short circuit the largest hurdle of just getting a new dev
 toolchain setup on your machine.
 
+#### Submissions
+  * [Pat](https://github.com/AICSC/Coding-Challenges/tree/master/2015/04-17/Pat/HiEarth.F)
+
 #### Submit Your Results
 [Create a Pull Request](https://github.com/AICSC/Coding-Challenges/new/master/2015/04-17/)
