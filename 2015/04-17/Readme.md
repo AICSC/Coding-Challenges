@@ -27,6 +27,7 @@ This could help you short circuit the largest hurdle of just getting a new dev
 toolchain setup on your machine.
 
 #### Submissions
+  * [Gerardo](https://github.com/AICSC/Coding-Challenges/tree/master/2015/04-17/Gerardo)
   * [Pat](https://github.com/AICSC/Coding-Challenges/tree/master/2015/04-17/Pat/HiEarth.F)
 
 #### Submit Your Results
