@@ -17,6 +17,7 @@ Design (but *do not* code) a simple application (ie: a calculator). Create some 
 ##### Bingo Card
 
  * [Angel Rojas](https://gist.github.com/Angel-Rojas/f18bc441f4cfde485eea)
+ * [Pat](https://github.com/AICSC/Coding-Challenges/tree/master/2015/09-04/Pat/Bingo.s)
 
 ##### UI Design
 
