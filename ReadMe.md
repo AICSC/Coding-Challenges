@@ -7,3 +7,4 @@
  * [Apr 03 2015](https://github.com/AICSC/Coding-Challenges/blob/master/2015/04-03/Readme.md)
  * [Apr 17 2015](https://github.com/AICSC/Coding-Challenges/blob/master/2015/04-17/Readme.md)
  * [Sept 4 2015](https://github.com/AICSC/Coding-Challenges/blob/master/2015/09-04/Readme.md)
+ * [Sept 18 2015](https://github.com/AICSC/Coding-Challenges/blob/master/2015/09-18/Readme.md)
