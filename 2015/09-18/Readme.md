@@ -16,6 +16,7 @@ Design (but *do not* code) a simple application (ie: a calculator). Create some 
 
 ##### 99 Bottles of Beer
 
+ * [Diego](https://github.com/AICSC/Coding-Challenges/tree/master/2015/09-18/Diego/BottlesOfBeer.cpp)
  * [Pat](https://github.com/AICSC/Coding-Challenges/tree/master/2015/09-18/Pat/Song.s)
 
 ##### UI Design
