@@ -16,7 +16,7 @@ Design (but *do not* code) a simple application (ie: a calculator). Create some 
 
 ##### Pig Latin
 
-
+ * [Pat](https://github.com/AICSC/Coding-Challenges/tree/master/2015/10-02/Pat/PigLatin.py)
 
 ##### UI Design
 
