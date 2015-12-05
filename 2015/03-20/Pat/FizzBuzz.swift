@@ -21,12 +21,12 @@ for i in 1...100 {
 
     switch true {
     case fizz && buzz:
-        println("FizzBuzz")     // Look ma, no breaks!
+        print("FizzBuzz")     // Look ma, no breaks!
     case fizz:
-        println("Fizz")
+        print("Fizz")
     case buzz:
-        println("Buzz")
+        print("Buzz")
     default:
-        println("\(i)")
+        print(i)
     }
 }

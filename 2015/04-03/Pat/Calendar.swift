@@ -19,13 +19,13 @@ func main() {
     var year: Int
     var month: Int
 
-    do {
+    repeat {
         print( "Enter month and year: " )
         fflush(__stdoutp) // Flush stdout so prompt appears right away
         (month, year) = input()
     } while ( month < 1 || month > 12 || year < 1 || year > 3000 )
 
-    displayCalendar( year, month )
+    displayCalendar( year, month: month )
 }
 
 func input() -> (Int, Int) {
@@ -63,26 +63,26 @@ func padding( i: Int ) -> String {
 }
 
 func displayCalendar( year: Int, month: Int ) {
-    var firstDay: Int = calculateFirstDayOfMonth( year, month )
+    var firstDay: Int = calculateFirstDayOfMonth( year, month: month )
     let DAYS_IN_MONTH: [Int?] = [nil, 31, (isLeapYear(year) ? 29 : 28), 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
     let MONTHS: [String?] = [ nil, "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ]
     var label = "\(MONTHS[month]!) \(year)"
-        label = padding( ( 21 - count(label) ) / 2 ) + label
+        label = padding( ( 21 - label.characters.count ) / 2 ) + label
 
-    println("\n\(label)")
-    println(" S  M  T  W  T  F  S")
-    print( padding( 3 * firstDay ) ); // Print padding before first day, to align
+    print("\n" + label)
+    print(" S  M  T  W  T  F  S")
+    print(padding( 3 * firstDay ), terminator: ""); // Print padding before first day, to align
 
     for i in 1...DAYS_IN_MONTH[month]! {
         let DAY = String(format: "%2d ", i)
         ++firstDay
         firstDay %= 7
-        print("\(DAY)")
+        print(DAY, terminator: "")
         if (firstDay==0) {
-            println() // Print a newline at end of week
+            print("") // Print a newline at end of week
         }
     }
-    println()
+    print("")
 }
 
 main()

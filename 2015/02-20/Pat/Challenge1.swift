@@ -23,12 +23,12 @@ func input() -> Int {
     return string?.integerValue ?? 0
 }
 
-do {
-    println( PROMPT_STRING )
+repeat {
+    print( PROMPT_STRING )
     inNum = input()
 } while ( inNum < MIN_NUM || inNum > MAX_NUM )
 
 outString = formatter.stringFromNumber( inNum )!
-println( outString )
+print( outString )
 
 stdin.closeFile()
