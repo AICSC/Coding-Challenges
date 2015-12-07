@@ -6,8 +6,6 @@
  *     swiftc -sdk $(xcrun --show-sdk-path --sdk macosx) Challenge1.swift
  */
 
-import Foundation;
-
 let MIN_NUM = 1000
 let MAX_NUM = 999_999
 let PROMPT_STRING = "Enter a whole number between \(MIN_NUM) and \(MAX_NUM) without spaces or commas."
@@ -19,10 +17,9 @@ func input() -> Int {
 
 extension Int {
     var commaSeperated: String! {
-        let formatter = NSNumberFormatter()
-            formatter.usesGroupingSeparator = true
-            formatter.groupingSeparator = ","
-        return formatter.stringFromNumber( self )
+        var num = String(self)
+        num.insert(",", atIndex: num.endIndex.advancedBy(-3))
+        return num
     }
 }
 
