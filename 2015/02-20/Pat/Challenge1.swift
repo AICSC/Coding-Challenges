@@ -7,20 +7,23 @@
  */
 
 import Foundation;
-let formatter = NSNumberFormatter()
-    formatter.usesGroupingSeparator = true
-    formatter.groupingSeparator = ","
-let stdin = NSFileHandle.fileHandleWithStandardInput()
 
 let MIN_NUM = 1000
-let MAX_NUM = 999999
+let MAX_NUM = 999_999
 let PROMPT_STRING = "Enter a whole number between \(MIN_NUM) and \(MAX_NUM) without spaces or commas."
 var inNum : Int
-var outString : String
 
 func input() -> Int {
-    let string = NSString( data: stdin.availableData, encoding:NSUTF8StringEncoding )
-    return string?.integerValue ?? 0
+    return Int(readLine()!) ?? 0
+}
+
+extension Int {
+    var commaSeperated: String! {
+        let formatter = NSNumberFormatter()
+            formatter.usesGroupingSeparator = true
+            formatter.groupingSeparator = ","
+        return formatter.stringFromNumber( self )
+    }
 }
 
 repeat {
@@ -28,7 +31,4 @@ repeat {
     inNum = input()
 } while ( inNum < MIN_NUM || inNum > MAX_NUM )
 
-outString = formatter.stringFromNumber( inNum )!
-print( outString )
-
-stdin.closeFile()
+print( inNum.commaSeperated )
