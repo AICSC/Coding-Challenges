@@ -29,11 +29,7 @@ func main() {
 
 func input() -> (Int, Int) {
     let inputs: [String]! = readLine()?.componentsSeparatedByString(" ")
-    if (inputs.count >= 2) {
-        return (Int(inputs[0]) ?? 0, Int(inputs[1]) ?? 0)
-    } else {
-        return (0,0)
-    }
+    return (Int(inputs[0]) ?? 0, Int(inputs[1]) ?? 0)
 }
 
 func isLeapYear( year: Int ) -> Bool {
