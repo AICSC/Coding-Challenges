@@ -23,8 +23,6 @@ Enter month and year: 4 2015
 #### Submissions
   * [Kozmik](https://github.com/AICSC/Coding-Challenges/tree/master/2015/04-03/Kozmik)
   * [Pat](https://github.com/AICSC/Coding-Challenges/tree/master/2015/04-03/Pat)
-  * [Peter Nguyen](https://github.com/PeterFelixNguyen/CalendarFun)
-    * [Peter's Executable](https://s3-us-west-2.amazonaws.com/aicsc/CalendarFunPeterNguyen.jar)
 
 #### Submit Your Results
 [Create a Pull Request](https://github.com/AICSC/Coding-Challenges/new/master/2015/04-03/)
