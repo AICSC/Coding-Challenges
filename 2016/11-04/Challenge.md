@@ -42,4 +42,4 @@ Write a program that reverses a string.
 ##### Reverse a string
 
 #### Submit Your Results
-[Create a Pull Request](https://github.com/AICSC/Coding-Challenges/new/master/2015/10/)
+[Create a Pull Request](https://github.com/AICSC/Coding-Challenges/new/master/2016/11-04/)
